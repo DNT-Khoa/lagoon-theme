@@ -1,7 +1,7 @@
 {
-  "name": "lagoon",
-  "displayName": "Lagoon",
-  "description": "An atmospheric warm-teal color theme with contrast-tuned syntax assignments — high-frequency tokens get high-contrast colors, adjacent token kinds get distinct hues, and HTML / Java / TypeScript get specific separation rules.",
+  "name": "lagoon-theme",
+  "displayName": "Lagoon Theme",
+  "description": "A cozy warm-teal color theme for people who want their editor to feel like a sunlit lagoon.",
   "version": "0.0.4",
   "publisher": "khoa-doan",
   "engines": {

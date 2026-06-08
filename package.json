@@ -10,6 +10,17 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "warm",
+    "teal",
+    "lagoon",
+    "tropical",
+    "syntax"
+  ],
   "icon": "icon.png",
   "contributes": {
     "themes": [

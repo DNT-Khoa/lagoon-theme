@@ -1,7 +1,7 @@
 # About Lagoon
 
 Hi there! 🌊
-I made this theme because most dark themes feel a little too cold for me — I wanted something that felt like sitting by warm tropical water. Lagoon paints your code with sunlit gold, coral reef, bioluminescent strings, and turquoise types, all drifting against atmospheric teal. Lagoon Light keeps the same color story on warm cream paper, for brighter desks. Hope you like it ^^
+There's something about quiet mornings by warm tropical water — I wanted my editor to feel like that. Sunlit gold, coral reef, bioluminescent strings, and turquoise types drift across atmospheric teal; Lagoon Light brings the same palette to warm cream paper, for brighter desks. Hope you like it ^^
 
 ### Screenshot
 <!-- Drop a screenshot at images/demo.png and reference it here:

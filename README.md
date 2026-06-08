@@ -1,7 +1,7 @@
 # About Lagoon
 
 Hi there! 🌊
-I wanted an editor that felt like quiet mornings by warm tropical water — gold keywords, coral functions, biolum strings, and turquoise types drifting across atmospheric teal. Lagoon Light brings the same palette to warm cream paper, for brighter desks. Hope you like it ^^
+I made Lagoon in two variants so you can pick whichever fits your day. **Lagoon (dark)** feels like quiet mornings by warm tropical water — gold keywords, coral functions, biolum strings, and turquoise types drifting across atmospheric teal. **Lagoon Light** keeps the same palette on warm cream paper, for brighter desks. Hope you like it ^^
 
 ### Screenshots
 

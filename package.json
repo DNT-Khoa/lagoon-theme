@@ -1,0 +1,32 @@
+{
+  "name": "lagoon",
+  "displayName": "Lagoon",
+  "description": "An atmospheric warm-teal color theme with contrast-tuned syntax assignments — high-frequency tokens get high-contrast colors, adjacent token kinds get distinct hues, and HTML / Java / TypeScript get specific separation rules.",
+  "version": "0.0.1",
+  "publisher": "khoa-coder-jedi",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lagoon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lagoon-dark-color-theme.json"
+      },
+      {
+        "label": "Lagoon Light",
+        "uiTheme": "vs",
+        "path": "./themes/lagoon-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

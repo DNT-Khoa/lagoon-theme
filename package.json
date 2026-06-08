@@ -2,7 +2,7 @@
   "name": "lagoon-theme",
   "displayName": "Lagoon Theme",
   "description": "A cozy warm-teal color theme for people who want their editor to feel like a sunlit lagoon.",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "publisher": "khoa-doan",
   "engines": {
     "vscode": "^1.80.0"

@@ -39,16 +39,6 @@ Search **Lagoon** in the Extensions panel → Install → `Cmd+K Cmd+T` → choo
 | Tag            | `#C13F4E` | deep coral-red      |
 | Comment        | `#7A8090` | muted blue-gray     |
 
-## Pairs nicely with
-
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) with folder accents matched to Lagoon's gold:
-
-```jsonc
-"material-icon-theme.folders.color": "#FFCB6B",
-"material-icon-theme.folders.theme": "specific",
-"material-icon-theme.hidesExplorerArrows": true
-```
-
 ## License
 
 [MIT](LICENSE)

@@ -9,13 +9,9 @@ I made Lagoon in two variants so you can pick whichever fits your day. **Lagoon 
 
 ### Installation
 
-**From the Extensions panel**
-Open Extensions (`Cmd+Shift+X` on macOS / `Ctrl+Shift+X` on Windows/Linux), search for **Lagoon Theme**, and click Install. Then activate the theme with `Cmd+K Cmd+T` (macOS) / `Ctrl+K Ctrl+T` and choose **Lagoon** (dark) or **Lagoon Light**.
-
-**From the command line**
-```bash
-code --install-extension khoa-doan.lagoon-theme
-```
+- Open the Extensions panel in VS Code
+- Search for **Lagoon Theme** and click Install
+- Open the Color Theme picker and choose **Lagoon** (dark) or **Lagoon Light**
 
 ### Screenshots
 

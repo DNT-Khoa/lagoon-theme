@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DNT-Khoa/lagoon-theme/main/icon.png" alt="Lagoon Theme" width="128" />
+  <img src="https://raw.githubusercontent.com/DNT-Khoa/lagoon-theme/main/media/icon.png" alt="Lagoon Theme" width="128" />
 </p>
 
 <h1 align="center">Lagoon Theme</h1>

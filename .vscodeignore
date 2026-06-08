@@ -3,4 +3,5 @@
 .gitignore
 *.vsix
 media/**
+!media/icon.png
 vsc-extension-quickstart.md

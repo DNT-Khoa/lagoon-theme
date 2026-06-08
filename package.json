@@ -21,7 +21,7 @@
     "tropical",
     "syntax"
   ],
-  "icon": "icon.png",
+  "icon": "media/icon.png",
   "contributes": {
     "themes": [
       {

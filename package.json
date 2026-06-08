@@ -3,7 +3,7 @@
   "displayName": "Lagoon",
   "description": "An atmospheric warm-teal color theme with contrast-tuned syntax assignments — high-frequency tokens get high-contrast colors, adjacent token kinds get distinct hues, and HTML / Java / TypeScript get specific separation rules.",
   "version": "0.0.1",
-  "publisher": "khoa-coder-jedi",
+  "publisher": "khoa-doan",
   "engines": {
     "vscode": "^1.80.0"
   },

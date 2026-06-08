@@ -1,0 +1,66 @@
+name: Release VS Code Extension
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Package
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          npx --yes @vscode/vsce package --no-yarn --no-git-tag-version "$VERSION" -o "lagoon-${VERSION}.vsix"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          if [ -z "$PREV_TAG" ]; then
+            RANGE="HEAD"
+          else
+            RANGE="$PREV_TAG..HEAD"
+          fi
+
+          INSTALL_BLOCK=$(cat <<EOF
+          ## Install
+          \`\`\`bash
+          code --install-extension lagoon-${VERSION}.vsix
+          \`\`\`
+          EOF
+          )
+
+          CHANGELOG=$(git log $RANGE --pretty=format:"- %s" --no-merges)
+          NOTES=$(cat <<EOF
+          ${INSTALL_BLOCK}
+
+          ## Changes
+          ${CHANGELOG}
+          EOF
+          )
+
+          gh release create "$GITHUB_REF_NAME" \
+            "lagoon-${VERSION}.vsix" \
+            --title "Lagoon ${VERSION}" \
+            --notes "$NOTES"
+
+      - name: Publish to VS Code Marketplace
+        run: npx --yes @vscode/vsce publish --packagePath "lagoon-${GITHUB_REF_NAME#v}.vsix" --no-yarn
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}

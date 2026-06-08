@@ -1,3 +1,5 @@
 .vscode/**
+.github/**
 .gitignore
+*.vsix
 vsc-extension-quickstart.md

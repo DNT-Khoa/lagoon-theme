@@ -1,17 +1,14 @@
-# Lagoon
+# About Lagoon
 
-A warm-teal VS Code color theme. Coral, gold, biolum, and aqua against shallow tropical water. Ships a light counterpart — **Lagoon Light** — same color story on warm cream paper.
+Hi there! 🌊
+I made this theme because most dark themes feel a little too cold for me — I wanted something that felt like sitting by warm tropical water. Lagoon paints your code with sunlit gold, coral reef, bioluminescent strings, and turquoise types, all drifting against atmospheric teal. Lagoon Light keeps the same color story on warm cream paper, for brighter desks. Hope you like it ^^
 
-<!--
-Drop a screenshot at images/demo.png, set a repository URL in package.json,
-then reference it here:  images/demo.png
+### Screenshot
+<!-- Drop a screenshot at images/demo.png and reference it here:
+![Preview](images/demo.png)
 -->
 
-## Install
-
-Search **Lagoon** in the Extensions panel → Install → `Cmd+K Cmd+T` → choose **Lagoon** (dark) or **Lagoon Light**.
-
-## Palette — Lagoon (dark)
+### Palette — Lagoon (dark)
 
 | Role           | Hex       | Evokes              |
 |----------------|-----------|---------------------|
@@ -25,7 +22,7 @@ Search **Lagoon** in the Extensions panel → Install → `Cmd+K Cmd+T` → choo
 | Tag            | `#FF7E8E` | coral-red           |
 | Comment        | `#6E9099` | muted teal-gray     |
 
-## Palette — Lagoon Light
+### Palette — Lagoon Light
 
 | Role           | Hex       | Evokes              |
 |----------------|-----------|---------------------|
@@ -39,6 +36,11 @@ Search **Lagoon** in the Extensions panel → Install → `Cmd+K Cmd+T` → choo
 | Tag            | `#C13F4E` | deep coral-red      |
 | Comment        | `#7A8090` | muted blue-gray     |
 
-## License
+### Feedback
+Lagoon is continuously being updated. If a color feels off, a token needs better separation, or you'd like to see a tweak — please [open an issue on GitHub](https://github.com/DNT-Khoa/lagoon-theme/issues). Suggestions are very welcome.
 
-[MIT](LICENSE)
+Repo: [github.com/DNT-Khoa/lagoon-theme](https://github.com/DNT-Khoa/lagoon-theme)
+
+### Update
+##### v0.0.1
+ - Initial release: Lagoon and Lagoon Light

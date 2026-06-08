@@ -2,4 +2,5 @@
 .github/**
 .gitignore
 *.vsix
+media/**
 vsc-extension-quickstart.md

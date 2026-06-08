@@ -3,10 +3,15 @@
 Hi there! 🌊
 There's something about quiet mornings by warm tropical water — I wanted my editor to feel like that. Sunlit gold, coral reef, bioluminescent strings, and turquoise types drift across atmospheric teal; Lagoon Light brings the same palette to warm cream paper, for brighter desks. Hope you like it ^^
 
-### Screenshot
-<!-- Drop a screenshot at images/demo.png and reference it here:
-![Preview](images/demo.png)
--->
+### Screenshots
+
+**Lagoon (dark)**
+
+![Lagoon dark](https://raw.githubusercontent.com/DNT-Khoa/lagoon-theme/main/media/lagoon-dark-shot-1.png)
+
+**Lagoon Light**
+
+![Lagoon Light](https://raw.githubusercontent.com/DNT-Khoa/lagoon-theme/main/media/lagoon-light-shot-1.png)
 
 ### Palette — Lagoon (dark)
 

@@ -41,6 +41,5 @@ Lagoon is continuously being updated. If a color feels off, a token needs better
 
 Repo: [github.com/DNT-Khoa/lagoon-theme](https://github.com/DNT-Khoa/lagoon-theme)
 
-### Update
-##### v0.0.1
- - Initial release: Lagoon and Lagoon Light
+### Releases
+See the [GitHub Releases page](https://github.com/DNT-Khoa/lagoon-theme/releases) for version history and per-release changelogs.

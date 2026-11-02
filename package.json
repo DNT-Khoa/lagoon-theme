@@ -25,14 +25,22 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lagoon",
+        "id": "Lagoon",
+        "label": "Lagoon Night",
         "uiTheme": "vs-dark",
-        "path": "./themes/lagoon-dark-color-theme.json"
+        "path": "./themes/lagoon-night-color-theme.json"
       },
       {
-        "label": "Lagoon Light",
+        "id": "Lagoon Light",
+        "label": "Lagoon Shore",
         "uiTheme": "vs",
-        "path": "./themes/lagoon-light-color-theme.json"
+        "path": "./themes/lagoon-shore-color-theme.json"
+      },
+      {
+        "id": "Lagoon Tide",
+        "label": "Lagoon Tide",
+        "uiTheme": "vs",
+        "path": "./themes/lagoon-tide-color-theme.json"
       }
     ]
   },

@@ -22,7 +22,7 @@ import sys
 
 PROMPT_TEMPLATE = """You are writing release notes for a VS Code color theme called Lagoon.
 
-Lagoon is a warm-teal color theme with a light counterpart (Lagoon Light). Syntax colors are assigned by frequency and adjacency — high-frequency tokens get high-contrast colors, adjacent token kinds get distinct hues, and HTML / Java / TypeScript get specific separation rules. The two theme JSON files live at themes/lagoon-dark-color-theme.json and themes/lagoon-light-color-theme.json.
+Lagoon is a color theme with three variants: Lagoon Night (warm-teal dark), Lagoon Shore (warm cream light) and Lagoon Tide (cool snow-white light). Syntax colors are assigned by frequency and adjacency — high-frequency tokens get high-contrast colors, adjacent token kinds get distinct hues, and HTML / Java / TypeScript get specific separation rules. The theme JSON files live at themes/lagoon-night-color-theme.json, themes/lagoon-shore-color-theme.json and themes/lagoon-tide-color-theme.json.
 
 Generate concise, well-structured release notes for version {version}, based on the commits and changed files below.
 

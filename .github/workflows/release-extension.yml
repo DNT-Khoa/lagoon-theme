@@ -81,3 +81,8 @@ jobs:
         run: npx --yes @vscode/vsce publish --packagePath "lagoon-theme-${GITHUB_REF_NAME#v}.vsix" --no-yarn
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to Open VSX
+        run: npx --yes ovsx publish "lagoon-theme-${GITHUB_REF_NAME#v}.vsix" -p "$OVSX_PAT"
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}

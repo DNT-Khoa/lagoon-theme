@@ -1,7 +1,7 @@
 {
   "name": "lagoon-theme",
   "displayName": "Lagoon Theme",
-  "description": "A cozy warm-teal color theme for people who want their editor to feel like a sunlit lagoon.",
+  "description": "A cozy color theme for people who want their editor to feel neither too dark nor too bright.",
   "version": "3.0.0",
   "publisher": "khoa-doan",
   "license": "MIT",
@@ -16,11 +16,22 @@
     "color-theme",
     "dark-theme",
     "light-theme",
+    "lagoon",
     "warm",
     "teal",
-    "lagoon",
+    "green",
+    "blue",
+    "indigo",
+    "purple",
+    "white",
+    "snow",
     "tropical",
-    "syntax"
+    "ocean",
+    "night",
+    "dusk",
+    "cozy",
+    "aesthetic",
+    "low-contrast"
   ],
   "icon": "media/icon.png",
   "contributes": {

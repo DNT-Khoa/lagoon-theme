@@ -32,6 +32,18 @@
         "path": "./themes/lagoon-night-color-theme.json"
       },
       {
+        "id": "Lagoon Depths",
+        "label": "Lagoon Depths",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lagoon-depths-color-theme.json"
+      },
+      {
+        "id": "Lagoon Dusk",
+        "label": "Lagoon Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lagoon-dusk-color-theme.json"
+      },
+      {
         "id": "Lagoon Light",
         "label": "Lagoon Shore",
         "uiTheme": "vs",
